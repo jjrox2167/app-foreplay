@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@plugin "@headlessui/tailwindcss" {
+  prefix: data;
+}
+
 
 :root {
   --background: #ffffff;
@@ -24,3 +28,5 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+    
