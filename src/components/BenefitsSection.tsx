@@ -1,21 +1,21 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { ClockIcon, ChartBarIcon, ArrowLongDownIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Book and Manage Tee Times.',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
+      'Save time and skip the hassle with easy scheduling, reminders, and seamless coordination for every round.',
+    icon: ClockIcon,
   },
   {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
+    name: 'Track Your Stats.',
+    description: 'Gain insights into every round with detailed scorecards, shot tracking, and performance trends tailored to your game.',
+    icon: ChartBarIcon,
   },
   {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: ServerIcon,
+    name: 'Improve Your Stroke Game.',
+    description: 'Make smarter decisions on the course with data-driven tools that guide your club selection and course management; focusing on areas that matter most.',
+    icon: ArrowLongDownIcon,
   },
 ]
 
@@ -26,13 +26,12 @@ export default function BenefitsSection() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pt-4 lg:pr-8">
             <div className="lg:max-w-lg">
-              <h2 className="text-base/7 font-semibold text-indigo-400">Deploy faster</h2>
+              <h2 className="text-base/7 font-semibold text-indigo-400">Play Smarter with Foreplay</h2>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
-                A better workflow
+                Maximize Your Game with Our App
               </p>
               <p className="mt-6 text-lg/8 text-gray-300">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+                Unlock your potential on the course with an app that lets you book & manage tee-times, track your stats, and helps you lower your scores — all while making golf more fun.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

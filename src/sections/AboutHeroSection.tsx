@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "flowbite";
 
-const carouselElement = document.getElementById("carousel-example");
+
 
 const items = [
   {
