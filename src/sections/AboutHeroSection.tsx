@@ -138,6 +138,7 @@ const AboutHeroSection = () => {
               data-carousel-item="active"
             >
               <Image
+                id="carousel-image-1"
                 src="/images/carousel/carousel_1.jpg"
                 width={700}
                 height={600}

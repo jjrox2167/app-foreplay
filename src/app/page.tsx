@@ -3,6 +3,7 @@ import BenefitsSection from "@/components/BenefitsSection";
 import ThreeColumnFeaturesSection from '@/components/ThreeColumnFeaturesSection';
 import CallToActionSection from '@/components/CallToActionSection';
 import HeroSection from "@/components/HeroSection";
+import TestimonialSection from "@/sections/TestimonialSection";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <HeroSection />
         <BenefitsSection />
         <ThreeColumnFeaturesSection />
+        <TestimonialSection />
         <CallToActionSection />
       </main>
     </div>

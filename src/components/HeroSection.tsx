@@ -50,7 +50,7 @@ export default function HeroSection() {
               >
                 Get started
               </Link>
-              <Link href="/about" className="text-sm/6 font-semibold text-white">
+              <Link href="/features" className="text-sm/6 font-semibold text-white">
                 Learn more <span aria-hidden="true">→</span>
               </Link>
             </div>

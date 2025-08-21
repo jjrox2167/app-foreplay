@@ -76,7 +76,7 @@ export default function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <Link
-                                        href="/get"
+                                        href="/getstarted"
                                         className="hover:underline"
                                     >
                                         For Android
@@ -91,7 +91,7 @@ export default function Footer() {
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <Link
-                                        href="/aboutus"
+                                        href="/about"
                                         className="hover:underline "
                                     >
                                         Our Story
